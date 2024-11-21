@@ -1,4 +1,4 @@
-import Type_Like_GPT as T
+import Only_type as T
 
 
 def band_name():
