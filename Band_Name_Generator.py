@@ -6,7 +6,7 @@ def band_name():
     combining two inputs. Ask users for their favorite city
     and an animal or color. Combine these inputs to form a 
     quirky band name.'''
-
+    T.clear_screen()
     T.type_text(
         "Welcome, To Band Name Generator! We will Generate a Band Name For You 🎸")
     pet = input("Enter Your Favorite Animal or Color : ").title()
@@ -15,4 +15,5 @@ def band_name():
     T.type_text(f'Wow ! Your Band Name Can be {pet} {city}')
 
 
-band_name()
+if __name__ == "__main__":
+    band_name()

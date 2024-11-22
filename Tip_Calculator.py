@@ -1,7 +1,8 @@
-import Type_Like_GPT as T
+import Only_type as T
 
 
 def Tip_Calculator():
+    T.clear_screen()
     T.type_text("Welcome To Tip Calculator!")
     Amount = float(input("Enter Total Bill Amount : "))
     Tip = float(input("Enter Tip You want to give :  "))
@@ -12,4 +13,5 @@ def Tip_Calculator():
                 Amount+Tip} and {Split} person Should Pay {Each_pay} Each')
 
 
-Tip_Calculator()
+if __name__ == '__main__':
+    Tip_Calculator()
